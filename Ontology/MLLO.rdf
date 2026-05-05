@@ -40,6 +40,36 @@
     
 
 
+    <!-- https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom -->
+
+    <owl:AnnotationProperty rdf:about="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/directSource -->
+
+    <owl:AnnotationProperty rdf:about="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/directSource"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/explanatoryNote -->
+
+    <owl:AnnotationProperty rdf:about="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/explanatoryNote"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/naturalLanguageDefinition -->
+
+    <owl:AnnotationProperty rdf:about="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/naturalLanguageDefinition"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/synonym -->
+
+    <owl:AnnotationProperty rdf:about="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/synonym"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -130,14 +160,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/mnd14/ml/executes -->
+    <!-- http://www.semanticweb.org/mnd14/ml/executed -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mnd14/ml/executes">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mnd14/ml/executed">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000059"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/mnd14/ml/isExecutedIn"/>
         <rdfs:domain rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/PlannedProcess"/>
         <rdfs:range rdf:resource="https://purl.industrialontologies.org/ontology/core/Core/EncodedAlgorithm"/>
-        <rdfs:label>executes</rdfs:label>
+        <rdfs:label>executed</rdfs:label>
         <AnnotationVocabulary:naturalLanguageDefinition>relates a planned process to an encoded algorithm that is concretized during the planned process</AnnotationVocabulary:naturalLanguageDefinition>
     </owl:ObjectProperty>
     
@@ -400,6 +430,102 @@
         <rdfs:label>target variable of</rdfs:label>
         <AnnotationVocabulary:naturalLanguageDefinition>inverse of has target variable</AnnotationVocabulary:naturalLanguageDefinition>
     </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/describedBy -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/describedBy"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/describes -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/describes"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/designates -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/designates"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/hasInput -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/hasInput"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/hasOutput -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/hasOutput"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/hasSpecifiedOutput -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/hasSpecifiedOutput"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/isAbout -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/isAchievedByAtSomeTime -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/isAchievedByAtSomeTime"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/isInputOf -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/isInputOf"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/isOutputOf -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/isSpecifiedOutputOf -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/isSpecifiedOutputOf"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/isSubjectOf"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/isValueDescriptionOfAtSomeTime -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/isValueDescriptionOfAtSomeTime"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/prescribedBy -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/prescribedBy"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/prescribes -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/prescribes"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/satisfiesRequirement -->
+
+    <owl:ObjectProperty rdf:about="https://purl.industrialontologies.org/ontology/core/Core/satisfiesRequirement"/>
     
 
 
@@ -1057,7 +1183,7 @@ For a continuous random variable, a curve described by a mathematical formula wh
                                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mnd14/ml/DataCleaningObjective"/>
                             </owl:Restriction>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executes"/>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executed"/>
                                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mnd14/ml/EncodedDataCleaningAlgorithm"/>
                             </owl:Restriction>
                         </owl:unionOf>
@@ -1101,7 +1227,7 @@ For a continuous random variable, a curve described by a mathematical formula wh
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/mnd14/ml/DataClearningOperation"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executes"/>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executed"/>
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1847,7 +1973,7 @@ For a continuous random variable, a curve described by a mathematical formula wh
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/mnd14/ml/DataProcessingOperation"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executes"/>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executed"/>
                         <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mnd14/ml/EncodedFeatureEngineeringAlgorithm"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -2621,7 +2747,7 @@ For a continuous random variable, a curve described by a mathematical formula wh
                         <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mnd14/ml/MachineLearningTraining"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executes"/>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executed"/>
                         <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mnd14/ml/EncodedInitializationAlgorithm"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -2809,7 +2935,7 @@ For a continuous random variable, a curve described by a mathematical formula wh
                         </owl:unionOf>
                     </owl:Class>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executes"/>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executed"/>
                         <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mnd14/ml/EncodedMachineLearningTrainingAlgorithm"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -2973,7 +3099,7 @@ For a continuous random variable, a curve described by a mathematical formula wh
                         <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mnd14/ml/MachineLearningParameterSettingSet"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executes"/>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executed"/>
                         <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mnd14/ml/MachineLearningModel"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -3116,7 +3242,7 @@ For a continuous random variable, a curve described by a mathematical formula wh
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/mnd14/ml/DataProcessingOperation"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executes"/>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executed"/>
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
@@ -3508,7 +3634,7 @@ For a continuous random variable, a curve described by a mathematical formula wh
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://www.semanticweb.org/mnd14/ml/ModelExecution"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executes"/>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/executed"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
@@ -4066,22 +4192,52 @@ For a continuous random variable, a curve described by a mathematical formula wh
     
 
 
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/ComputingProcess -->
+
+    <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/ComputingProcess"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/DirectiveInformationContentEntity -->
+
+    <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/DirectiveInformationContentEntity"/>
+    
+
+
     <!-- https://purl.industrialontologies.org/ontology/core/Core/EncodedAlgorithm -->
 
-    <rdf:Description rdf:about="https://purl.industrialontologies.org/ontology/core/Core/EncodedAlgorithm">
+    <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/EncodedAlgorithm">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/mnd14/ml/isEncodedIn"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/EngineeredSystem -->
+
+    <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/EngineeredSystem"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/Identifier -->
+
+    <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/Identifier"/>
     
 
 
     <!-- https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity -->
 
     <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity"/>
+    
+
+
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/MeasuredValueDescription -->
+
+    <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/MeasuredValueDescription"/>
     
 
 
@@ -4103,11 +4259,17 @@ For a continuous random variable, a curve described by a mathematical formula wh
     
 
 
+    <!-- https://purl.industrialontologies.org/ontology/core/Core/RequirementSpecification -->
+
+    <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/RequirementSpecification"/>
+    
+
+
     <!-- https://purl.industrialontologies.org/ontology/core/Core/ValueDescription -->
 
-    <rdf:Description rdf:about="https://purl.industrialontologies.org/ontology/core/Core/ValueDescription">
+    <owl:Class rdf:about="https://purl.industrialontologies.org/ontology/core/Core/ValueDescription">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-    </rdf:Description>
+    </owl:Class>
     <rdf:Description>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
     </rdf:Description>
@@ -4146,5 +4308,5 @@ For a continuous random variable, a curve described by a mathematical formula wh
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
