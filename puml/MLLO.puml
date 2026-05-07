@@ -1,5 +1,6 @@
 @startuml
-!include ./nowl/nowl.iuml
+!include /Users/pnc12/Documents/GitHub/nowl/nowl/profiles/iof.iuml
+left to right direction
 title InformationContentEntity_InformationContentEntity
 class(c1, ns2:information content entity)
 class(c2, ns2:action specification)
